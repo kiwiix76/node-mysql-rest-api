@@ -1,0 +1,24 @@
+{
+  "name": "api_tp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/server.js",
+    "start": "node ../server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/node": "^7.20.7",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
